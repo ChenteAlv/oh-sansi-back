@@ -1,6 +1,6 @@
 import prisma from '../config/prismaClient.js';
 import Joi from 'joi';
-import bcrypt from 'bcrypt';
+//import bcrypt from 'bcrypt';
 import { generarPassword } from '../utils/passwordSecurity.js';
 
 
