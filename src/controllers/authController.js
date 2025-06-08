@@ -20,7 +20,7 @@ export const login = async (req, res) => {
                 error: 'Debe proporcionar correo electrónico y contraseña'
             });
         }
-
+        console.log('Datos de login recibidos:', { correo_electronico, password });
         // Buscar el usuario por correo (case insensitive para mayor flexibilidad)
         const usuario = await prisma.usuario.findFirst({
             where: {
