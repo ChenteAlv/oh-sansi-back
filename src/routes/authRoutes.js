@@ -5,7 +5,7 @@ import { verificarToken } from '../middlewares/authMiddleware.js';
 
 const router = express.Router();
 
-router.post('/login', authControllers.login);
+//router.post('/login', authControllers.login);
 
 //Temporalmente deshabilitado el perfil de competidores
 router.get('/perfil', verificarToken, async (req, res) => {
