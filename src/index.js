@@ -23,7 +23,7 @@ import reportesRoutes from './routes/reportesRoutes.js';
 
 
 // Inicializar Express
-const app = express();
+//const app = express();
 
 // Crear servidor HTTP basado en la app de Express
 const server = http.createServer(app);
